@@ -3,7 +3,7 @@ const repeatString = function(str, num) {
     let newArr = [];
 
     if (num < 0) {
-        return `Error`
+        return `ERROR`;
     } else {
         for (let i = 0; i < num; i++) {
             newArr.push(str);
